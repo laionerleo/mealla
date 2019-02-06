@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>403 Forbidden</title>
+</head>
+<body>
+
+<p>Directory access is forbidden.</p>
+<table class='table table-bordered table-responsive' id='tableEditoriales'>
+    <thead>
+        <tr>
+            <th scope='col'></th>
+            <th scope='col'>Id</th>
+            <th scope='col'>Nombre</th>
+            <th scope='col'>Nombre</th>
+            <th scope='col'>Nombre</th>
+            <th scope='col'>Nombre</th>
+            <th scope='col'>Nombre</th>
+        </tr>
+    </thead>
+    <tbody>
+        <?php foreach ($data as $key):?>
+            <tr>
+                <td></td>
+                <td><?php echo $key->id_pago_cuota ;?></td>
+                <td><?php echo $key->id_sale ;?></td>
+                <td><?php echo $key->date ;?></td>
+                <td><?php echo $key->fullname ;?></td>
+                <td><?php echo $key->nrodoc ;?></td>
+                <td><?php echo $key->details ;?></td>
+            </tr>
+        <?php endforeach;?>
+    </tbody>
+</table>
+
+</body>
+</html>
