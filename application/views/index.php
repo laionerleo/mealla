@@ -66,14 +66,11 @@
 <!-- aqui viene servicios -->
 <?php $this->load->view('contacto'); ?>
 <!-- end bg -->
-            
-
-
-    
+ 
 </div>
-    <footer>
-         <p>&copy; 2019 leonardo ayala cayo  <a title="WordPress Themes" href="">TeoThemes</a></p>
-    </footer>
+<footer>
+    <p>&copy; 2019 leonardo ayala cayo  <a title="WordPress Themes" href="https://www.facebook.com/leonardo.ayala.75">servicios</a></p>
+</footer>
 <?php $this->load->view('theme/js'); ?>    
     
  

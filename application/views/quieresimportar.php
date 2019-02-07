@@ -54,12 +54,7 @@
                     </div>
                 </div>
 
-            <div class="sixteen columns">
-                <div style="text-align: center">
-                    <a href="blog/index.html" class="btn btn-default">View all blog posts</a>
-                    </a>
-                </div>
-            </div>
+          
                             
             </div> <!-- end container -->
 </section> <!-- end bg -->

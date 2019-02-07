@@ -44,6 +44,17 @@
                         <p>E-mail</p>
                         <input type="text" name="email" class="text" id="email" />
 
+                        <p>servicios</p>
+                        <select>
+                            <option>servicio</option>
+                            <option>servicio</option>
+                            <option>servicio</option>
+                            <option>servicio</option>
+                            <option>servicio</option>
+                            <option>servicio</option>
+                            <option>servicio</option>
+                            <option>servicio</option>
+                        </select>
                         <p>Message</p>
                         <textarea rows="5" name="comment" class="text"></textarea>
 
@@ -56,4 +67,5 @@
 
                     <!-- ************ google map ************ -->
             <div id='map'></div>
+
 </section>
