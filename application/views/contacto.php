@@ -2,8 +2,9 @@
         <div class="container">
         
             <header>
-                <h2>Contact</h2>
-                <p>I have traced the Rebel spies to her. Now she is my only link to finding their secret base. You don&#039;t believe in the Force, do you?</p>            </header> <!-- end sixteen columns -->
+                <h2>Contacto</h2>
+                <p>Cualquier consulta puede ubicarnos en las siguientes direcciones o manden un mensaje, para asi luego comunicarnos con usted</p>    
+            </header> <!-- end sixteen columns -->
                         
             <div class="row row-centered">
                 <div class="col-md-8 col-sm-12 col-centered">
@@ -12,14 +13,14 @@
                                             <li>
                             <div class="content">
                                 <i class="fa fa-home"></i>
-                                <p>767 Fifth Ave. New York, NY 10153</p>
+                                <p>Urbanización  cotoca.  Calle N°3 ..</p>
                             </div> <!-- /.content -->
                         </li>
                     
                                             <li>
                             <div class="content">
                                 <i class="fa fa-home"></i>
-                                <p>+123 456 789</p>
+                                <p>76009756</p>
                             </div> <!-- /.content -->
                         </li>
                     
@@ -40,32 +41,89 @@
 
                          <p>Name</p>
                         <input type="text" name="name" class="text" />
+                        <input type="hidden" name="url" id="url"  value="<?=$url?>">
                             
                         <p>E-mail</p>
                         <input type="text" name="email" class="text" id="email" />
 
                         <p>servicios</p>
-                        <select>
-                            <option>servicio</option>
-                            <option>servicio</option>
-                            <option>servicio</option>
-                            <option>servicio</option>
-                            <option>servicio</option>
-                            <option>servicio</option>
-                            <option>servicio</option>
-                            <option>servicio</option>
+                        <select id="slcservicio" name="slcservicio" style="border-width: initial; color: blue; width: 200px;">
+                                   <option>Importacion a consumo </option>
+                                    <option> Admision Temporal </option>
+                                    <option> Reimportacion Anticipado </option>
+                                    <option> Despacho Anticipado </option>
+                                    <option>Despacho Courier </option>
+                                    <option>Despacho inmediato  </option>
+                                    <option>Despacho de menor cuuantia imp a consumo  </option>
+                                    <option>Despacho parcial  </option>
+                                    <option>Despacho despacho en frontera </option>
+                                    <option>Asesoria en transaporte internacional y nacional </option>
+                                    <option> supervisamos la logistica del movimiento fisico de la mercaderia</option>
+                                    <option>Contacto directo del proveedor externo a partir de la comprar del material </option>
+                                    <option>Asesoria en contratacion de seguros nacionales e internacionales </option>
+                                    <option>Contratacion del medio de trasporte que traslada la mercaderia desde el recinto aduanero hasta los almacebes de su empresa</option>
+                                    <option>Exportacion Definitiva</option>
+                                    <option>Exportacion Temporal </option>
+                                    <option>Reexportacion</option>
                         </select>
                         <p>Message</p>
                         <textarea rows="5" name="comment" class="text"></textarea>
 
-                        <button class="btn btn-default" type="submit" id="submit">Send</button>
+                        <button class="btn btn-default" type="button" id="enviarmensaje">Send</button>
                     </form>
+                    <div id="carga" style="display: none;">
+                        <p>envio con exito</p>
+                    </div>
                                         
                 </div> <!-- end contact-form -->
             </div>             
         </div> <!-- end container -->
 
+
+
+
+
                     <!-- ************ google map ************ -->
             <div id='map'></div>
 
 </section>
+<script type="text/javascript">
+
+    $(document).on("click","#enviarmensaje",function(e){
+   // alert("no funciona");
+    
+    var fieldsP = $( "#contactForm" ).serialize();
+    var urlAjax=$("#url").val()+"mandar";
+    $.ajax({
+      url: urlAjax,
+      data: {fieldsP},
+      type:'POST',
+      
+      beforeSend:function(){
+      
+      var div2 = document.getElementById('carga');
+                               div2.style.display = 'block';
+      },
+      error:function(response){
+        alert("error");
+        console.log(response);
+            
+        
+        },
+      success:function(response){
+        alert("entro bien ");
+        console.log(response);
+            
+        
+        },
+      complete:function(){
+       var div2 = document.getElementById('carga');
+                               div2.style.display = 'none';
+      }  
+    })
+  });
+    
+
+
+</script>
+

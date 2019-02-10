@@ -11,7 +11,7 @@ $i                                        = '^(en|es|de|it|po)';
 
 $route['default_controller']              = 'Welcome';
 $route[$l.'main']                         = 'Welcome';
-$route[$l.'personas-sendMessage']          = 'Personas/sendMessage';
+$route[$l.'mandar']		                 = 'Welcome/mandarmensaje';
 
 
 /**/

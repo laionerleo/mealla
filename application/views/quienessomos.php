@@ -1,5 +1,5 @@
 
-<section class="bg " id="work"  style="background-image: url('<?php echo base_url(); ?>application/assets/images/inicio3.jpg')">>
+<section class="bg " id="work"  >
     <div class="container">
     <header>
         <h2>QUIENES SOMOS</h2>
@@ -10,7 +10,7 @@
             <div class="vc_column-inner ">
                 <div class="wpb_wrapper">           
                     <ul id="slider-22308" class="bxslider">
-                                    <li><img alt="asesoramiento" title="asesoramiento" src="<?php echo base_url(); ?>application/assets/files/2012/07/slider-1.jpg" /></li>
+                                    <li><img alt="asesoramiento" title="asesoramiento" src="<?php echo base_url(); ?>application/assets/images/asesoramiento.jpg" /></li>
                                     <li><img alt="personal calificado" title="personal calificado" src="<?php echo base_url(); ?>application/assets/files/2012/07/slider-2.jpg" /></li>
                                     <li><img alt="Experiencia" title="Experiencia" src="<?php echo base_url(); ?>application/assets/files/2012/07/slider-3.jpg" /></li>
                                     

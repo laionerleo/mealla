@@ -6,6 +6,8 @@ var wpcf7 = {"apiSettings":{"root":"http:\/\/teothemes.com\/wp\/scrn\/wp-json\/c
 /* ]]> */
 </script>
 <script type='text/javascript' src='<?php echo base_url(); ?>application/assets/wp-content/plugins/contact-form-7/includes/js/scripts5597.js?ver=5.0'></script>
+
+
 <script type='text/javascript' src='<?php echo base_url(); ?>application/assets/wp-content/themes/SCRN/js/bootstrap.min5152.js?ver=1.0'></script>
 <script type='text/javascript' src='<?php echo base_url(); ?>application/assets/wp-content/themes/SCRN/js/animsition.min5152.js?ver=1.0'></script>
 <script type='text/javascript' src='<?php echo base_url(); ?>application/assets/wp-content/themes/SCRN/js/jquery.smoothscroll.min5152.js?ver=1.0'></script>
@@ -23,18 +25,54 @@ var MyAjax = {"ajaxurl":"http:\/\/teothemes.com\/wp\/scrn\/wp-admin\/admin-ajax.
 </script>
 <script type='text/javascript' src='<?php echo base_url(); ?>application/assets/wp-content/themes/SCRN/js/scrn5152.js?ver=1.0'></script>
 <script type='text/javascript'>
+	var platform = new H.service.Platform({
+  'app_id': '1tN7GdXxm2W7q6UhBrVl',
+  'app_code': 'Fle6SV5E3V_bEN1gtOi0zw'
+});
           
-                   var map;
+          // Obtain the default map types from the platform object:
+var defaultLayers = platform.createDefaultLayers();
+
+// Instantiate (and display) a map object:
+    
+var map = new H.Map(
+  document.getElementById('map'),
+  defaultLayers.normal.map,
+  {
+    zoom: 17,
+    center: { lat: -17.7607518, lng: -63.0940654 }
+  });
+var icon = new H.map.Icon('<?php echo base_url(); ?>application/assets/images/iconomealla.png');
+
+    
+      coords = {lat: -17.7607518, lng: -63.0940654},
+  marker = new H.map.Marker(coords, {icon: icon});
+map.addObject(marker);
+map.setCenter(coords);
+    /*               var map;
       function initMap() {
         map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: -17.7732456, lng: -63.1282455},
-          zoom: 8
+          center: {lat: -17.7607518, lng: -63.0940654},
+          zoom: 17
+          
         });
-      }
+
+        		marcador = new google.maps.Marker({
+				position: new google.maps.LatLng(-17.7607518, -63.0940654),
+				map: mapa,
+				title: "Mealla y asociados"
+				
+		});		
+		
+
+
+
+
+      }*/
 </script>
- <script async defer
-  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCZ9Wdb0zFta3RjNzdMFvEzV_yYRtxgBYs&callback=initMap">
-</script>
+ <!--<script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=Fle6SV5E3V_bEN1gtOi0zw&callback=initMap">
+</script>-->
 <script type='text/javascript' src='<?php echo base_url(); ?>application/assets/wp-includes/js/wp-embed.min9537.js?ver=4.8.8'></script>
 <script type='text/javascript' src='<?php echo base_url(); ?>application/assets/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min9d08.js?ver=4.12.1'></script>
  

@@ -2,7 +2,7 @@
         <div class="container">
             <header>
                 <h2>Servicios</h2>
-                <p>I have traced the Rebel spies to her. Now she is my only link to finding their secret base. You don&#039;t believe in the Force, do you?</p>                
+                <p>Antes de importar... busca un asesoramiento serio y responsable sobre los requisitos , procedimientos y normativas vigentes que hagan de tu experiencia y negocio un exito !!</p>                
             </header>
 
             <div class="vc_row wpb_row vc_row-fluid">
@@ -11,24 +11,57 @@
                         <div class="wpb_wrapper">
 
                             <div class="services-list">
-                                <i class="fa fa-pencil"></i>
-                                <h4>Design</h4>
-                                <p>He is here. A tremor in the Force. The last time I felt it was in the presence of my old master. Hey, Luke! May the Force be with you.</p>
+                               
+                                <i>  <img src="<?php echo base_url(); ?>application/assets/images/importacion.png"></i>
+                                <h4>IMPORTACIONES</h4>
                             </div>
-                           
+                            
+                                <div class="pricing-table">
+                              
+                                    <ul style="list-style-type:square;">
+                                        <li>Importacion a consumo </li>
+                                        <li> Admision Temporal </li>
+                                        <li> Reimportacion Anticipado </li>
+                                        <li> Despacho Anticipado </li>
+                                        <li>Despacho Courier </li>
+                                        <li>Despacho inmediato  </li>
+                                        <li>Despacho de menor cuuantia imp a consumo  </li>
+                                        <li>Despacho parcial  </li>
+                                        <li>Despacho despacho en frontera </li>
+                                        
+                                            
+                                    </ul>  
                             </div>
+                        </div>
                     </div>
                 </div>
+
                 <div class="wpb_column vc_column_container vc_col-sm-4">
                     <div class="vc_column-inner ">
                         <div class="wpb_wrapper">
                         <div class="services-list">
-                            <i class="fa fa-laptop"></i>
+                            <img  src="<?php echo base_url(); ?>application/assets/images/exportacion.png">
 
-                            <h4>Development</h4>
+                            <h4>LOGISTICA Y TRANSPORTE</h4>
 
-                            <p>He is here. A tremor in the Force. The last time I felt it was in the presence of my old master. Hey, Luke! May the Force be with you.</p>
+                            
                         </div>
+                              <div class="pricing-table pt-3">
+                              
+                                      <ul style="list-style-type:square;">
+                                   <li>Asesoria en transaporte internacional y nacional </li>
+                                    <li> supervisamos la logistica del movimiento fisico de la mercaderia</li>
+                                    <li>Contacto directo del proveedor externo a partir de la comprar del material </li>
+                                    <li>Asesoria en contratacion de seguros nacionales e internacionales </li>
+                                    <li>Contratacion del medio de trasporte que traslada la mercaderia desde el recinto aduanero hasta los almacebes de su empresa</li>
+                                   
+                                        
+                                </ul>
+
+                                            
+                                </div>
+                        
+
                        
 
                         </div>
@@ -38,98 +71,34 @@
                     <div class="vc_column-inner ">
                         <div class="wpb_wrapper">
                         <div class="services-list">
-                            <i class="fa fa-globe"></i>
+                            
+                          <i>  <img  src="<?php echo base_url(); ?>application/assets/images/exportacion.png"></i>
 
-                            <h4>SEO</h4>
+                            <h4>EXPORTACIONES</h4>
 
-                            <p>He is here. A tremor in the Force. The last time I felt it was in the presence of my old master. Hey, Luke! May the Force be with you.</p>
+                            
                         </div>
-                        
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="vc_row wpb_row vc_row-fluid">
-                <div class="wpb_column vc_column_container vc_col-sm-4">
-                    <div class="vc_column-inner ">
-                        <div class="wpb_wrapper">
-                            <div class="pricing-table">
-                                <p class="pt-title">Basic</p>
-                                <p class="pt-price"> $5<span>.99</span>      </p>
-                                <p class="pt-per">Per Month</p>
-                                    <ul class="list-unstyled">
-                                        <li>3 Projects</li>
-                                        <li>2 Users</li><li>1 GB Space</li><li>1 Calendar</li>     
-                                    </ul>
-
-                                        <a target="_blank" class="btn btn-default" href="http://teothemes.com/">Sign up</a>
-                                    </div>
-
-                         </div>
-                     </div>
-                 </div>
-
-
-                 <div class="wpb_column vc_column_container vc_col-sm-4">
-                    <div class="vc_column-inner ">
-                        <div class="wpb_wrapper">
                         <div class="pricing-table">
-                            <p class="pt-title">Pro</p>
-                            <p class="pt-price">
-                                $9<span>.99</span>      </p>
-                                <p class="pt-per">Per Month</p>
-
-                                <ul class="list-unstyled">
-                                    <li>5 projects</li>
-                                    <li>5 users</li><li>5 GB Space</li><li>5 Calendars</li>
-                                </ul>
-                            <a target="_blank" class="btn btn-default" href="http://teothemes.com/">Sign up</a>
+                            <ul style="list-style-type:square;">
+                                <li>Exportacion Definitiva</li>
+                                <li>Exportacion Temporal </li>
+                                <li>Reexportacion</li>
+                            </ul>
+                           
+                           
                          </div>
-                        </div>
-                    </div>
-                </div>
 
-                <div class="wpb_column vc_column_container vc_col-sm-4">
-                    <div class="vc_column-inner ">
-                        <div class="wpb_wrapper">
-                                <div class="pricing-table pt-3">
-                                    <p class="pt-title">Premium</p>
-                                    <p class="pt-price">
-                                        $25<span>.99</span>     </p>
-                                        <p class="pt-per">per month</p>
 
-                                        <ul class="list-unstyled">
-                                            <li>25 projects</li>
-                                            <li>100 users</li><li>25 GB Space</li><li>100 calendars</li>        </ul>
-
-                                            <a target="_blank" class="btn btn-default" href="#">Sign up</a>
-                                </div>
                         </div>
                     </div>
                 </div>
             </div>
 
+         
 
 
-            <div class="vc_row wpb_row vc_row-fluid">
-                <div class="wpb_column vc_column_container vc_col-sm-12">
-                    <div class="vc_column-inner ">
-                        <div class="wpb_wrapper">
-                                        <div class="call-to-action">
-                                            <div class="row">
-                                                <div class="col-md-9 left">
-                                                    <h3>You don&#039;t believe in the force, do you?</h3>
-                                                    <p>He is here. A tremor in the Force. The last time I felt it was in the presence of my old master. I’m surprised you had the courage to take the responsibility yourself.</p>
-                                                </div>
-                                                <div class="col-md-3 right">
-                                                    <a target="_blank" class="btn btn-default" href="#">Sign up</a>         </div>
-                                                </div>
-                                            </div>
 
-                        </div>
-                    </div>
-                </div>
-            </div>
+       
         </div> <!-- end container -->
+    </div>
 </section> 

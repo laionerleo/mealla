@@ -117,6 +117,12 @@ class Welcome extends CI_Controller {
 		$this->load->view('error403', $d);
 	
 	}
+	public function mandarmensaje(){
+		$d = array();
+		$this->Msecurity->url_and_lan($d);
+		echo "aqui llego";
+
+	}
 
 	/**/
 }

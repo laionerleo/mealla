@@ -1,7 +1,8 @@
 <section id="intro" class="intro-1 parallax-window" style="background-image: url('<?php echo base_url(); ?>application/assets/images/inicio2.jpg')">        
     <div class="intro-content">
-        <h1 >MEALLAS Y ASOCIADOS
+        <h1 ><font face="Broadway">MEALLA Y ASOCIADOS</font>
         </h1>
+        
         <br>
         <h4 style="color: white">CONSULTORIA EN COMERCIO EXTERIOR Y ADUANAS</h4>
 
