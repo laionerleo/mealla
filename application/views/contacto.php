@@ -19,7 +19,8 @@
                     
                                             <li>
                             <div class="content">
-                                <i class="fa fa-home"></i>
+                              
+                                <a href="https://api.whatsapp.com/send?phone=59176009756"><i class="fa fa-whatsapp"></i></a>
                                 <p>76009756</p>
                             </div> <!-- /.content -->
                         </li>
@@ -39,12 +40,17 @@
                     
                     <form id="contactForm" method="post" action="#">
 
-                         <p>Name</p>
-                        <input type="text" name="name" class="text" />
+                         <p>Nombre</p>
+                        <input type="text" name="inpnombre" id="inpnombre" class="text" />
                         <input type="hidden" name="url" id="url"  value="<?=$url?>">
+
+                        <p>Numero</p>
+                        <input type="number" name="inpnumero" class="text" id="inpnumero" placeholder="#######" />
+
                             
                         <p>E-mail</p>
-                        <input type="text" name="email" class="text" id="email" />
+                        <input type="email" name="inpemail" class="text" id="inpemail" placeholder="*****@*****" />
+
 
                         <p>servicios</p>
                         <select id="slcservicio" name="slcservicio" style="border-width: initial; color: blue; width: 200px;">
@@ -66,10 +72,10 @@
                                     <option>Exportacion Temporal </option>
                                     <option>Reexportacion</option>
                         </select>
-                        <p>Message</p>
-                        <textarea rows="5" name="comment" class="text"></textarea>
+                        <p>Mensaje</p>
+                        <textarea rows="5" id="inpmensaje"  name="inpmensaje" class="text"></textarea>
 
-                        <button class="btn btn-default" type="button" id="enviarmensaje">Send</button>
+                        <button class="btn btn-default" type="button" id="enviarmensaje" >enviar</button>
                     </form>
                     <div id="carga" style="display: none;">
                         <p>envio con exito</p>
@@ -78,6 +84,7 @@
                 </div> <!-- end contact-form -->
             </div>             
         </div> <!-- end container -->
+
 
 
 

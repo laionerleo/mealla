@@ -34,61 +34,57 @@ class Welcome extends CI_Controller {
 		$this->load->view('index', $d);
 	
 	}
-	public function plantilla1()
-	{	
+	
+		public function mandarmensaje(){
 		$d = array();
 		$this->Msecurity->url_and_lan($d);
+	//public function  sendMessage(){
+		$datos= $this->input->post();
+		parse_str($this->input->post("fieldsP"), $nuevodato);
+        //$nuevodato = $this->Msecurity->sanear_array($nuevodato);
+        print_r($nuevodato);
 
-		$this->load->view('index1', $d);
-	
+		$subject = "Asunto del email";
+		$headers = "MIME-Version: 1.0" . "\r\n";
+		$headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+	$mensaje = '<html>'.
+		            '<head><title>Nueva consulta </title></head>'.
+		            '<body><h1>Mesaje de la Pagina web Mealla y asociados</h1>'.
+		            'el mensaje nuevo  '.
+		            $nuevodato["inpmensaje"].
+		            '<br>'.
+		            ' el numero es ='.
+		            $nuevodato["inpnumero"].
+		            '<br>'.
+		            'Email de contacto: '. $nuevodato["inpemail"].
+		            '</body>'.
+		            '</html>';
+
+		            echo "$mensaje";
+		            $enviado = mail($nuevodato["inpemail"], "nueva consulta", $mensaje, $headers);
+
+/*
+foreach ($c as $key => $v) {
+	if ($v->con_type_contact=="Email" &&  $v->con_type_contact ) {
+		echo "<br> $v->con_detail";
+		$enviado = mail($v->con_detail, $titulo, $mensaje, $headers);	
+		if($enviado) $countOK++;
+		else $countKO++;	
+		
+	}
+}
+if(!$countOK)
+			echo "<p class='text-danger'>lo siento, no pudimos enviar su email.</p>";
+		else
+			echo "<p class='text-success'>Se envio con exito su mensaje $countOK veces. y fallo $countKO veces</p>";
+ 
+
+
+
+		echo "aqui llego";*/
+
 	}
 
-	/**/
-	public function plantilla2()
-	{	
-		$d = array();
-		$this->Msecurity->url_and_lan($d);
-
-		$this->load->view('index2', $d);
-	
-	}
-	/**/
-	public function plantilla3()
-	{	
-		$d = array();
-		$this->Msecurity->url_and_lan($d);
-
-		$this->load->view('index3', $d);
-	
-	}
-	/**/
-	public function plantilla4()
-	{	
-		$d = array();
-		$this->Msecurity->url_and_lan($d);
-
-		$this->load->view('index4', $d);
-	
-	}
-	/**/
-/**/
-	public function T3()
-	{	
-		$d = array();
-		$this->Msecurity->url_and_lan($d);
-
-		$this->load->view('T3/T3', $d);
-	
-	}/**/
-	public function T4()
-	{	
-		$d = array();
-		$this->Msecurity->url_and_lan($d);
-
-		$this->load->view('T4/T4', $d);
-	
-	}
-	/**/
 
 	public function error404($lan='es')
 	{
@@ -117,12 +113,7 @@ class Welcome extends CI_Controller {
 		$this->load->view('error403', $d);
 	
 	}
-	public function mandarmensaje(){
-		$d = array();
-		$this->Msecurity->url_and_lan($d);
-		echo "aqui llego";
 
-	}
 
 	/**/
 }
