@@ -1,4 +1,4 @@
-    <section class="bg dark-bg" id="nam-fermentum-suscipit-metus-at">
+    <section  id="nam-fermentum-suscipit-metus-at" style="background-image: url('<?php echo base_url(); ?>application/assets/images/servicio.png') ;  background-size: cover;">
         <div class="container">
             <header>
                 <h2>Servicios</h2>
@@ -40,7 +40,10 @@
                     <div class="vc_column-inner ">
                         <div class="wpb_wrapper">
                         <div class="services-list">
-                            <img  src="<?php echo base_url(); ?>application/assets/images/exportacion.png">
+                     
+                            <i class="fa fa-car side"></i>
+                            <br>
+                            <br>
 
                             <h4>LOGISTICA Y TRANSPORTE</h4>
 

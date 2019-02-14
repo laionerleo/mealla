@@ -1,12 +1,12 @@
-<section class="bg " id="blog">
+<section class="bg " id="blog"  style="background-image: url('<?php echo base_url(); ?>application/assets/images/inicio5.jpg')">>
             <div class="container">
                 <header>
                     <h2>QUIERES IMPORTAR </h2>
                 </header>
                 <div class="row">
                     <div class="col-sm-3">
-                        <a href="2012/06/30/morbi-diam-purus-porttitor-vestibulum/index.html">
-                        <img src="<?php echo base_url(); ?>application/assets/files/2017/03/daniel-frank-225181-400x232.jpg" class="scale-with-grid" alt="Morbi diam purus, porttitor." />
+                        <a href="https://www.aduana.gob.bo">
+                       <center> <img width="200" height="200" he src="<?php echo base_url(); ?>application/assets/images/aduana.png" class="scale-with-grid" alt="Morbi diam purus, porttitor." /></center>
                         </a>
                             <div class="post-preview">
                                 
@@ -17,8 +17,8 @@
                     </div>
 
                     <div class="col-sm-3">
-                        <a href="2012/06/30/etiam-feugiat-imperdiet-augue-a/index.html">
-                            <img src="<?php echo base_url(); ?>application/assets/files/2017/03/christos-barbalis-223977-400x232.jpg" class="scale-with-grid" alt="Etiam feugiat imperdiet a." />
+                        <a href="#blog">
+                            <center><img width="200" height="200" src="<?php echo base_url(); ?>application/assets/images/verificarmercaderia.png" class="scale-with-grid" alt="Etiam feugiat imperdiet a." /></center>
                         </a>
                         <div class="post-preview">
                            
@@ -30,8 +30,8 @@
                     </div>
 
                     <div class="col-sm-3">
-                        <a href="2012/06/30/sed-sed-iaculis-mauris-proin/index.html">
-                            <img src="<?php echo base_url(); ?>application/assets/files/2017/03/chage-tang-226843-400x232.jpg" class="scale-with-grid" alt="Sed sed iaculis mauris. Proin." />
+                        <a href="#blog">
+                            <center><img width="200" height="200" src="<?php echo base_url(); ?>application/assets/images/documentacion.png" class="scale-with-grid" alt="Sed sed iaculis mauris. Proin." /></center>
                         </a>
                         <div class="post-preview">
                             <a class="post-preview-title" href="2012/06/30/sed-sed-iaculis-mauris-proin/index.html">Prepara tu documentacion</a>
@@ -48,8 +48,8 @@
                     </div>  
 
                     <div class="col-sm-3">
-                        <a href="2012/06/30/sed-sed-iaculis-mauris-proin/index.html">
-                            <img src="<?php echo base_url(); ?>application/assets/files/2017/03/chage-tang-226843-400x232.jpg" class="scale-with-grid" alt="Sed sed iaculis mauris. Proin." />
+                        <a href="#intro">
+                            <center><img width="200" height="200" src="<?php echo base_url(); ?>application/assets/images/logo.jpeg" class="scale-with-grid" alt="Sed sed iaculis mauris. Proin." /></center>
                         </a>
                         <div class="post-preview">
                     

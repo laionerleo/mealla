@@ -1,13 +1,13 @@
-<section id="intro" class="intro-1 parallax-window" style="background-image: url('<?php echo base_url(); ?>application/assets/images/inicio2.jpg')">        
+<section id="intro" class="intro-1 parallax-window" style="background-image: url('<?php echo base_url(); ?>application/assets/images/inicio3.jpg')">        
     <div class="intro-content">
-        <h1 ><font face="Broadway">MEALLA Y ASOCIADOS</font>
+        <h1 style="color: black"><font face="Broadway">MEALLA Y ASOCIADOS</font>
         </h1>
         
         <br>
-        <h4 style="color: white">CONSULTORIA EN COMERCIO EXTERIOR Y ADUANAS</h4>
+        <h4 style="color: #F60202">CONSULTORIA EN COMERCIO EXTERIOR Y ADUANAS</h4>
 
         <br>
-        <p>
+        <p  style="color: #F60202">
            " con un asesoramiento importar , nunca fue   tan facil "
        </p>
         <ul class="social-intro list-unstyled list-inline">

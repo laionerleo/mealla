@@ -1,4 +1,4 @@
-<section class="bg " id="abou"  >
+<section class="bg " id="abou"  style="background-image: url('<?php echo base_url(); ?>application/assets/images/misionyvision.jpg');background-size: cover;" >
             <div class="container">
                 <header>
                     <h2>Mision y Vision</h2>
@@ -29,7 +29,7 @@
                                 <div class="wpb_wrapper">
                                     <div class="wpb_text_column wpb_content_element ">
                                         <div class="wpb_wrapper">
-                                            <p><img class="alignnone wp-image-928 size-full" src="<?php echo base_url(); ?>application/assets/images/logo.jpeg" width="555" height="410" /></p>
+                                            <p><img class="alignnone wp-image-928 size-full" src="<?php echo base_url(); ?>application/assets/images/mision.png" width="555" height="380" /></p>
 
                                         </div>
                                     </div>

@@ -1,4 +1,4 @@
-<section id="contact" class="dark-bg">
+<section id="contact" style="background-image: url('<?php echo base_url(); ?>application/assets/images/contacto.png') ;  background-size: cover;">
         <div class="container">
         
             <header>
