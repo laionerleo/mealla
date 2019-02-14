@@ -11,9 +11,9 @@
             <div class="vc_column-inner ">
                 <div class="wpb_wrapper">           
                     <ul id="slider-22308" class="bxslider">
-                                    <li><img alt="asesoramiento" title="asesoramiento" src="<?php echo base_url(); ?>application/assets/images/galeria.jpeg" /></li>
-                                    <li><img alt="personal calificado" title="personal calificado" src="<?php echo base_url(); ?>application/assets/images/galeria2.jpeg" /></li>
-                                    <li><img alt="Experiencia" title="Experiencia" src="<?php echo base_url(); ?>application/assets/images/galeria3.jpeg" /></li>
+                                    <li><img alt="asesoramiento" title="asesoramiento" src="<?php echo base_url(); ?>application/assets/images/galeria.png" /></li>
+                                    <li><img alt="personal calificado" title="personal calificado" src="<?php echo base_url(); ?>application/assets/images/galeria2.png" /></li>
+                                    <li><img alt="Experiencia" title="Experiencia" src="<?php echo base_url(); ?>application/assets/images/galeria3.png" /></li>
                                     
                     </ul>
             <script type="text/javascript">

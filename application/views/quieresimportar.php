@@ -1,4 +1,4 @@
-<section class="bg " id="blog"  style="background-image: url('<?php echo base_url(); ?>application/assets/images/inicio5.jpg')">>
+<section class="bg " id="blog"  style="background-image: url('<?php echo base_url(); ?>application/assets/images/quieresimportar.jpg');  background-size: cover;">
             <div class="container">
                 <header>
                     <h2>QUIERES IMPORTAR </h2>
