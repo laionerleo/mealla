@@ -12,12 +12,12 @@
                                 <div class="wpb_text_column wpb_content_element ">
                                     <div class="wpb_wrapper">
                                         <h5> MISION </h5>
-                                        <p style="text-align: justify;">Consultoría MEALLA & ASOCIADOS se propone ser una consultora de comercio exterior especializada en despacho aduanero, brindar asesoramiento en materia de exportaciones e importaciones, cubriendo las necesidades de nuestros clientes acortando el tiempo minimizando los costos y garantizando que la mercadería llegue a destino en conformidad</p>
+                                        <p style="text-align: justify;color: red">Consultoría MEALLA & ASOCIADOS se propone ser una consultora de comercio exterior especializada en despacho aduanero, brindar asesoramiento en materia de exportaciones e importaciones, cubriendo las necesidades de nuestros clientes acortando el tiempo minimizando los costos y garantizando que la mercadería llegue a destino en conformidad</p>
 
                                     </div>
                                     <div class="wpb_wrapper">
                                           <h5> Vision</h5>
-                                        <p style="text-align: justify;">Consolidarnos como una de las consultorías mas reconocida a nivel nacional por la calidad de sus servicios, en base a la eficiencia, responsabilidad y compromiso con nuestros clientes</p>
+                                        <p style="text-align: justify;color: red">Consolidarnos como una de las consultorías mas reconocida a nivel nacional por la calidad de sus servicios, en base a la eficiencia, responsabilidad y compromiso con nuestros clientes</p>
                                         
                                     </div>
                                 </div>

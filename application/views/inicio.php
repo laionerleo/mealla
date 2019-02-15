@@ -1,4 +1,4 @@
-<section id="intro" class="intro-1 parallax-window" style="background-image: url('<?php echo base_url(); ?>application/assets/images/inicio3.jpg')">        
+<section id="intro" class="intro-1 parallax-window" style="background-image: url('<?php echo base_url(); ?>application/assets/images/iniciof.jpg')">        
     <div class="intro-content">
         <h1 style="color: black"><font face="Broadway">MEALLA Y ASOCIADOS</font>
         </h1>
