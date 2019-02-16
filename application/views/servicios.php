@@ -2,8 +2,8 @@
         <div class="container">
             
             <header>
-                <h2>Servicios</h2>
-                <p>Antes de importar... busca un asesoramiento serio y responsable sobre los requisitos , procedimientos y normativas vigentes que hagan de tu experiencia y negocio un exito !!</p>                
+                <h2 style="color: red">Servicios</h2>
+                <b><p>Antes de importar... busca un asesoramiento serio y responsable sobre los requisitos , procedimientos y normativas vigentes que hagan de tu experiencia y negocio un exito !!</p></b>                
             </header>
 
             <div class="vc_row wpb_row vc_row-fluid">
@@ -14,10 +14,10 @@
                             <div class="services-list">
                                
                                 <i>  <img src="<?php echo base_url(); ?>application/assets/images/importacion.png"></i>
-                                <h4>IMPORTACIONES</h4>
+                                <h4 style="color: red">IMPORTACIONES</h4>
                             </div>
                             
-                                <div class="pricing-table">
+                                <div class="pricing-table pt-3">
                               
                                     <ul style="list-style-type:square;">
                                         <li>Importacion a consumo </li>
@@ -46,13 +46,13 @@
                             <br>
                             <br>
 
-                            <h4>LOGISTICA Y TRANSPORTE</h4>
+                            <h4 style="color: red">LOGISTICA Y TRANSPORTE</h4>
 
                             
                         </div>
                               <div class="pricing-table pt-3">
                               
-                                      <ul style="list-style-type:square;">
+                                 <ul style="list-style-type:square;">
                                    <li>Asesoria en transaporte internacional y nacional </li>
                                     <li> supervisamos la logistica del movimiento fisico de la mercaderia</li>
                                     <li>Contacto directo del proveedor externo a partir de la comprar del material </li>
@@ -60,14 +60,8 @@
                                     <li>Contratacion del medio de trasporte que traslada la mercaderia desde el recinto aduanero hasta los almacebes de su empresa</li>
                                    
                                         
-                                </ul>
-
-                                            
+                                </ul>                
                                 </div>
-                        
-
-                       
-
                         </div>
                     </div>
                 </div>
@@ -78,11 +72,11 @@
                             
                           <i>  <img  src="<?php echo base_url(); ?>application/assets/images/exportacion.png"></i>
 
-                            <h4>EXPORTACIONES</h4>
+                            <h4 style="color: red" >EXPORTACIONES</h4>
 
                             
                         </div>
-                        <div class="pricing-table">
+                        <div class="pricing-table pt-3">
                             <ul style="list-style-type:square;">
                                 <li>Exportacion Definitiva</li>
                                 <li>Exportacion Temporal </li>

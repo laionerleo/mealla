@@ -1,7 +1,7 @@
 <section class="bg " id="blog"  style="background-image: url('<?php echo base_url(); ?>application/assets/images/quieresimportar.jpg');  background-size: cover;">
             <div class="container">
                 <header>
-                    <h2>QUIERES IMPORTAR </h2>
+                    <h2 style="color: red">QUIERES IMPORTAR </h2>
                 </header>
                 <div class="row">
                     <div class="col-sm-3">
@@ -56,7 +56,7 @@
                             <a class="post-preview-title" href="2012/06/30/sed-sed-iaculis-mauris-proin/index.html">Agencia despachante de aduanas</a>
 
                             <p>Comunicate con nosotros para ofrecerte el mejor servicio y asesoramiento en tu despacho aduanero</p>
-                            
+                            <a href="#contact">comunicate con nosotros</a>
                         </div> <!-- end post -->
                     </div>
                 </div>

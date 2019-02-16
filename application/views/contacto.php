@@ -2,7 +2,7 @@
         <div class="container">
         
             <header>
-                <h2>Contacto</h2>
+                <h2 style="color: red">Contacto</h2>
                 <p>Cualquier consulta puede ubicarnos en las siguientes direcciones o manden un mensaje, para asi luego comunicarnos con usted</p>    
             </header> <!-- end sixteen columns -->
                         
@@ -40,19 +40,19 @@
                     
                     <form id="contactForm" method="post" action="#">
 
-                         <p>Nombre</p>
+                         <p style="color: black">Nombre</p>
                         <input type="text" name="inpnombre" id="inpnombre" class="text" />
                         <input type="hidden" name="url" id="url"  value="<?=$url?>">
 
-                        <p>Numero</p>
+                        <p style="color: black">Numero</p>
                         <input type="number" name="inpnumero" class="text" id="inpnumero" placeholder="#######" />
 
                             
-                        <p>E-mail</p>
+                        <p style="color: black">E-mail</p>
                         <input type="email" name="inpemail" class="text" id="inpemail" placeholder="*****@*****" />
 
 
-                        <p>servicios</p>
+                        <p style="color: black">servicios</p>
                         <select id="slcservicio" name="slcservicio" style="border-width: initial; color: blue; width: 200px;">
                                    <option>Importacion a consumo </option>
                                     <option> Admision Temporal </option>

@@ -7,9 +7,9 @@
         <h4 style="color: #F60202">CONSULTORIA EN COMERCIO EXTERIOR Y ADUANAS</h4>
 
         <br>
-        <p  style="color: #F60202">
+        <b><p  style="color: #F60202">
            " con un asesoramiento importar , nunca fue   tan facil "
-       </p>
+       </p></b>
         <ul class="social-intro list-unstyled list-inline">
             <li>
                 <a class="icn-facebook" target="_blank" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>

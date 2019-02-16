@@ -1,7 +1,7 @@
 <section class="bg " id="abou"  style="background-image: url('<?php echo base_url(); ?>application/assets/images/misionyvision.jpg');background-size: cover;" >
             <div class="container">
                 <header>
-                    <h2>Mision y Vision</h2>
+                    <h2 style="color: red">Mision y Vision</h2>
                     
                 </header>
 
@@ -11,13 +11,13 @@
                             <div class="wpb_wrapper">
                                 <div class="wpb_text_column wpb_content_element ">
                                     <div class="wpb_wrapper">
-                                        <h5> MISION </h5>
-                                        <p style="text-align: justify;color: red">Consultoría MEALLA & ASOCIADOS se propone ser una consultora de comercio exterior especializada en despacho aduanero, brindar asesoramiento en materia de exportaciones e importaciones, cubriendo las necesidades de nuestros clientes acortando el tiempo minimizando los costos y garantizando que la mercadería llegue a destino en conformidad</p>
+                                        <h5 style="color: red"> MISION </h5>
+                                        <b><p style="text-align: justify;">Consultoría MEALLA & ASOCIADOS se propone ser una consultora de comercio exterior especializada en despacho aduanero, brindar asesoramiento en materia de exportaciones e importaciones, cubriendo las necesidades de nuestros clientes acortando el tiempo minimizando los costos y garantizando que la mercadería llegue a destino en conformidad</p></b>
 
                                     </div>
                                     <div class="wpb_wrapper">
-                                          <h5> Vision</h5>
-                                        <p style="text-align: justify;color: red">Consolidarnos como una de las consultorías mas reconocida a nivel nacional por la calidad de sus servicios, en base a la eficiencia, responsabilidad y compromiso con nuestros clientes</p>
+                                          <h5 style="color: red"> VISION</h5>
+                                        <b><p style="text-align: justify;">Consolidarnos como una de las consultorías mas reconocida a nivel nacional por la calidad de sus servicios, en base a la eficiencia, responsabilidad y compromiso con nuestros clientes</p></b>
                                         
                                     </div>
                                 </div>
