@@ -10,7 +10,7 @@
                         </a>
                             <div class="post-preview">
                                 
-                                <a class="post-preview-title" href="2012/06/30/morbi-diam-purus-porttitor-vestibulum/index.html">Registro en la aduana</a>
+                                <a class="post-preview-title" href="#blog">Registro en la aduana</a>
                                 <p>Para realizar un tramite de importacion debes registrarte en la aduana nacional</p>
                                 <a class="read-more" href="https://www.aduana.gob.bo">Click aqui </a>
                             </div> <!-- end post -->
@@ -22,7 +22,7 @@
                         </a>
                         <div class="post-preview">
                            
-                            <a class="post-preview-title" href="2012/06/30/etiam-feugiat-imperdiet-augue-a/index.html">Verifica tu mercancia</a>
+                            <a class="post-preview-title" href="#blog">Verifica tu mercancia</a>
 
                             <p>verifica que tu mercaderia no se encuentre prohibida de importaciono requiera alguna autorizacion previa</p>
                           
@@ -34,7 +34,7 @@
                             <center><img width="200" height="200" src="<?php echo base_url(); ?>application/assets/images/documentacion.png" class="scale-with-grid" alt="Sed sed iaculis mauris. Proin." /></center>
                         </a>
                         <div class="post-preview">
-                            <a class="post-preview-title" href="2012/06/30/sed-sed-iaculis-mauris-proin/index.html">Prepara tu documentacion</a>
+                            <a class="post-preview-title" href="#blog">Prepara tu documentacion</a>
 
                             <p>prepara tu documentacion</p>
                             
@@ -53,7 +53,7 @@
                         </a>
                         <div class="post-preview">
                     
-                            <a class="post-preview-title" href="2012/06/30/sed-sed-iaculis-mauris-proin/index.html">Agencia despachante de aduanas</a>
+                            <a class="post-preview-title" href="#blog">Agencia despachante de aduanas</a>
 
                             <p>Comunicate con nosotros para ofrecerte el mejor servicio y asesoramiento en tu despacho aduanero</p>
                             <a href="#contact">comunicate con nosotros</a>

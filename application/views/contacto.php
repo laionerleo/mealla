@@ -1,4 +1,4 @@
-<section id="contact" style="background-image: url('<?php echo base_url(); ?>application/assets/images/contacto.png') ;  background-size: cover;">
+<section id="contact" style="background-image: url('<?php echo base_url(); ?>application/assets/images/iniciof5.jpg') ;  background-size: cover;">
         <div class="container">
         
             <header>
@@ -91,7 +91,7 @@
 
 
                     <!-- ************ google map ************ -->
-            <div id='map'></div>
+            <div id='map' width=100% ></div>
 
 </section>
 <script type="text/javascript">

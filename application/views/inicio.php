@@ -1,15 +1,35 @@
-<section id="intro" class="intro-1 parallax-window" style="background-image: url('<?php echo base_url(); ?>application/assets/images/iniciof.jpg')">        
+<section id="intro" class="intro-1 parallax-window" style="background-image: url('<?php echo base_url(); ?>application/assets/images/iniciof5.jpg')">        
     <div class="intro-content">
-        <h1 style="color: black"><font face="Broadway">MEALLA Y ASOCIADOS</font>
+        <h1 style="color: black ;-webkit-text-fill-color: black;
+-webkit-text-stroke: 1px black;font-size: 130px"><b><font face="Cooper Black">MEALLA Y ASOCIADOS</font></b>
         </h1>
         
         <br>
-        <h4 style="color: #F60202">CONSULTORIA EN COMERCIO EXTERIOR Y ADUANAS</h4>
+        <h4 style="color: black; -webkit-text-fill-color: black;
+-webkit-text-stroke: 3px black ;font-size: 55px"><b><font face="Cooper Black">CONSULTORIA EN COMERCIO EXTERIOR Y ADUANAS </font></b></h4>
 
         <br>
-        <b><p  style="color: #F60202">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+         <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <i>
+        
+           
+<b><p  style="color: black;-webkit-text-fill-color: black;-webkit-text-stroke: 3px black ; font-size: 65px"><font face="Caflisch Script">
            " con un asesoramiento importar , nunca fue   tan facil "
-       </p></b>
+       </font></p></b>
         <ul class="social-intro list-unstyled list-inline">
             <li>
                 <a class="icn-facebook" target="_blank" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>

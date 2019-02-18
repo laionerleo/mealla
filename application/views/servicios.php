@@ -1,9 +1,9 @@
-    <section  id="nam-fermentum-suscipit-metus-at" style="background-image: url('<?php echo base_url(); ?>application/assets/images/servicio.png') ;  background-size: cover;">
+    <section  id="nam-fermentum-suscipit-metus-at" style="background-image: url('<?php echo base_url(); ?>application/assets/images/iniciof4.jpg') ;  background-size: cover;">
         <div class="container">
             
             <header>
                 <h2 style="color: red">Servicios</h2>
-                <b><p>Antes de importar... busca un asesoramiento serio y responsable sobre los requisitos , procedimientos y normativas vigentes que hagan de tu experiencia y negocio un exito !!</p></b>                
+                <b><p style="color: white">Antes de importar... busca un asesoramiento serio y responsable sobre los requisitos , procedimientos y normativas vigentes que hagan de tu experiencia y negocio un exito !!</p></b>                
             </header>
 
             <div class="vc_row wpb_row vc_row-fluid">
