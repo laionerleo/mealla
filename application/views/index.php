@@ -20,15 +20,15 @@
 
  <!------------ /QUIENES SOMOS/--------- -->
 
-<section id="separator_1" class="separator parallax-window" style="background-image: url('<?php echo base_url(); ?>application/assets/files/2012/07/bg-3.jpg')">
-    <p>A tremor in the Force. The last time I felt it was in the presence of my old master</p>
+<section id="separator_1" class="separator parallax-window" style="background-image: url('<?php echo base_url(); ?>application/assets/images/fondo1.jpg')">
+    <p></p>
 </section>
 
 <!--MISION Y VISION-->
 <?php $this->load->view('misionvision'); ?>
 <!-- MISION Y VISION-->
-<section id="separator_2" class="separator parallax-window" style="background-image: url('<?php echo base_url(); ?>application/assets/files/2012/07/bg-2.jpg')">
-        <p>A tremor in the Force. The last time I felt it was in the presence of my old master</p>
+<section id="separator_2" class="separator parallax-window" style="background-image: url('<?php echo base_url(); ?>application/assets/images/fondo2.jpg')">
+        <p></p>
 </section>
 <script type="text/javascript">
             jQuery(window).load(function() {
@@ -53,15 +53,15 @@
 <!-- /// aqui debe estar el codigo de quieres importar  -->
 <?php $this->load->view('quieresimportar') ?>
 <!-- end bg -->
-<section id="separator_3" class="separator parallax-window" style="background-image: url('<?php echo base_url(); ?>application/assets/files/2012/07/bg-1.jpg')">
-                <p>A tremor in the Force. The last time I felt it was in the presence of my old master</p>
+<section id="separator_3" class="separator parallax-window" style="background-image: url('<?php echo base_url(); ?>application/assets/images/fondo3.jpg')">
+                <p></p>
 </section>
 <!-- aqui viene servicios -->
 <?php $this->load->view('servicios'); ?>
 <!-- end bg -->
 
-<section id="separator_4" class="separator parallax-window" style="background-image: url('<?php echo base_url(); ?>application/assets/files/2012/07/bg-4.jpg')">
-<p>A tremor in the Force. The last time I felt it was in the presence of my old master</p>
+<section id="separator_4" class="separator parallax-window" style="background-image: url('<?php echo base_url(); ?>application/assets/images/fondo4.jpg')">
+<p></p>
 </section>
 <!-- aqui viene servicios -->
 <?php $this->load->view('contacto'); ?>

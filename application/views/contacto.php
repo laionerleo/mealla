@@ -2,7 +2,7 @@
         <div class="container">
         
             <header>
-                <h2 style="color: red">Contacto</h2>
+                <h2 style="color: red"><font face="Cooper Black">Contacto </font></h2>
                 <p>Cualquier consulta puede ubicarnos en las siguientes direcciones o manden un mensaje, para asi luego comunicarnos con usted</p>    
             </header> <!-- end sixteen columns -->
                         

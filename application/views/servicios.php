@@ -2,7 +2,7 @@
         <div class="container">
             
             <header>
-                <h2 style="color: red">Servicios</h2>
+                <h2 style="color: red"><font face="Cooper Black">Servicios </font></h2>
                 <b><p style="color: white">Antes de importar... busca un asesoramiento serio y responsable sobre los requisitos , procedimientos y normativas vigentes que hagan de tu experiencia y negocio un exito !!</p></b>                
             </header>
 
@@ -13,7 +13,7 @@
 
                             <div class="services-list">
                                
-                                <i>  <img src="<?php echo base_url(); ?>application/assets/images/importacion.png"></i>
+                                <i>  <img src="<?php echo base_url(); ?>application/assets/images/iconoimportaciones.png"></i>
                                 <h4 style="color: red">IMPORTACIONES</h4>
                             </div>
                             
@@ -42,7 +42,7 @@
                         <div class="wpb_wrapper">
                         <div class="services-list">
                      
-                            <i class="fa fa-car side"></i>
+                            >  <img  src="<?php echo base_url(); ?>application/assets/images/iconologistica.png"></i>
                             <br>
                             <br>
 
@@ -70,7 +70,7 @@
                         <div class="wpb_wrapper">
                         <div class="services-list">
                             
-                          <i>  <img  src="<?php echo base_url(); ?>application/assets/images/exportacion.png"></i>
+                          <i>  <img  src="<?php echo base_url(); ?>application/assets/images/iconoexportaciones.png"></i>
 
                             <h4 style="color: red" >EXPORTACIONES</h4>
 

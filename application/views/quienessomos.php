@@ -1,9 +1,9 @@
 
-<section class="bg " id="work"  style="background-image: url('<?php echo base_url(); ?>application/assets/images/quienessomos2.jpg')   ;  background-size: cover;">
+<section class="bg " id="work"  style="background-image: url('<?php echo base_url(); ?>application/assets/images/quienessomos.png')   ;  background-size: cover;">
     <div class="container">
     <header>
         <h2 style="-webkit-text-fill-color: red;
--webkit-text-stroke: 1px black;">QUIENES SOMOS</h2>
+-webkit-text-stroke: 1px black;"><font face="Cooper Black">QUIENES SOMOS </font></h2>
 
         <b><p style="color: white;font-size: 35px" >Somos una empresa que brindamos todo tipo de asesoramiento en materia de comercio exterior y aduanas, contamos con un personal altamente calificado con experiencia en el ámbito, Tomamos esta Profesión como una verdadera Pasión. Atención al Cliente, Servicios y Experiencia nos distinguen. </p></b>
     </header>
