@@ -23,7 +23,7 @@
                         <div class="post-preview">
                            
                                <h6 style="font-size: 2.5em;color: red"><font face="Caflisch Script">Verifica tu mercancia </font></h6>
-                            <p style="color: white">verifica que tu mercaderia no se encuentre prohibida de importaciono requiera alguna autorizacion previa</p>
+                            <p style="color: white">verifica que tu mercaderia no se encuentre prohibida de importacion o requiera alguna autorizacion previa</p>
                           
                         </div> <!-- end post -->
                     </div>
@@ -49,7 +49,7 @@
                         </a>
                         <div class="post-preview">
                     
-                               <h6 style="font-size: 2.5em;color: red">Agencia despachante de aduanas </h6>
+                               <h6 style="font-size: 2.5em;color: red">Asesorate con un agente</h6>
 
                             <p style="color: white">Comunicate con nosotros para ofrecerte el mejor servicio y asesoramiento en tu despacho aduanero</p>
                             <a class="read-more" href="#contact">click aqui >></a>

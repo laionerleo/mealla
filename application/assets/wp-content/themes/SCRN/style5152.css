@@ -1157,16 +1157,16 @@ a.comment-edit-link:hover {
 
 .contact-info li {
   background-color: #3e3f40;
-  border-radius: 3px;
-  width: 230px;
-  height: 190px;
+  border-radius: 10px;
+  width: 180px;
+  height: 150px;
   display: flex;
 }
 
 .contact-info i {
   color: #a0a0a0;
-  font-size: 50px;
-  margin-bottom: 15px;
+  font-size: 40px;
+  margin-bottom: 20px;
 }
 
 .contact-info .content {

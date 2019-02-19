@@ -3,35 +3,42 @@
         
             <header>
                 <h2 style="color: red"><font face="Cooper Black">Contacto </font></h2>
-                <p>Cualquier consulta puede ubicarnos en las siguientes direcciones o manden un mensaje, para asi luego comunicarnos con usted</p>    
+                <p style="color: black">Cualquier consulta puede ubicarnos en las siguientes direcciones o manden un mensaje, para asi luego comunicarnos con usted</p>    
             </header> <!-- end sixteen columns -->
                         
             <div class="row row-centered">
                 <div class="col-md-8 col-sm-12 col-centered">
                                     <ul class="contact-info list-unstyled list-inline">
                     
-                                            <li>
-                            <div class="content">
-                                <i class="fa fa-home"></i>
-                                <p>Urbanización  cotoca.  Calle N°3 ..</p>
-                            </div> <!-- /.content -->
-                        </li>
+                                        <li>
+                                            <div class="content">
+                                                <i style="color: red" class="fa fa-home"></i>
+                                                <p>Urbanización  cotoca.  Calle N°3 ..</p>
+                                            </div> <!-- /.content -->
+                                        </li>
                     
-                                            <li>
-                            <div class="content">
-                              
-                                <a href="https://api.whatsapp.com/send?phone=59176009756"><i class="fa fa-whatsapp"></i></a>
-                                <p>76009756</p>
-                            </div> <!-- /.content -->
-                        </li>
+                                        <li>
+                                            <div class="content">
+                                              
+                                                <a href="https://api.whatsapp.com/send?phone=59176009756"><i class="fa fa-whatsapp" style="color: green"></i></a>
+                                                <p>76009756</p>
+                                            </div> <!-- /.content -->
+                                        </li>
                     
-                                            <li>
-                            <div class="content">
-                                <i class="fa fa-home"></i>
-                                <p>&#115;&#112;&#97;&#109;&#x40;&#x74;&#x65;&#x6f;&#116;&#104;&#101;&#x6d;&#x65;&#115;&#x2e;&#99;&#111;&#109;</p>
-                            </div> <!-- /.content -->
-                        </li>
-                                        </ul>
+                                        <li>
+                                            <div class="content">
+                                                <i class="fa fa-at" style="color: red"></i>
+                                                <p>&#115;&#112;&#97;&#109;&#x40;&#x74;&#x65;&#x6f;&#116;&#104;&#101;&#x6d;&#x65;&#115;&#x2e;&#99;&#111;&#109;</p>
+                                            </div> <!-- /.content -->
+                                        </li>
+                                    
+                                        <li>
+                                            <div class="content" >
+                                                <i class="fa fa-phone" style="color: red"></i>
+                                                <p>350000</p>
+                                            </div> <!-- /.content -->
+                                        </li>
+                                    </ul>
                 
                                     
                     <div class="done">

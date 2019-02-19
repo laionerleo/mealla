@@ -42,7 +42,7 @@
                         <div class="wpb_wrapper">
                         <div class="services-list">
                      
-                            >  <img  src="<?php echo base_url(); ?>application/assets/images/iconologistica.png"></i>
+                            <img  src="<?php echo base_url(); ?>application/assets/images/iconologistica.png"></i>
                             <br>
                             <br>
 
