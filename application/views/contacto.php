@@ -98,9 +98,10 @@
 
 
                     <!-- ************ google map ************ -->
-            <div id='map' width=100% ></div>
+            
 
 </section>
+<div id='map' width=100% ></div>
 <script type="text/javascript">
 
     $(document).on("click","#enviarmensaje",function(e){
