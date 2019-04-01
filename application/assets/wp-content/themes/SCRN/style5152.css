@@ -298,7 +298,8 @@ div.parallax-mirror {
 }
 
 .intro-1 p {
-  font-size: 24px;
+  font-size: 30
+  px;
   margin: 30px 0;
   padding: 0 80px;
 }
@@ -1497,7 +1498,7 @@ p.copyright {
   }
 
   .intro-1 p {
-    font-size: 16px;
+    font-size: 30px;
   }
 
   .intro-1 h1 {

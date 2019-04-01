@@ -15,7 +15,7 @@
 
         
            
-<b><p style="color: black;-webkit-text-fill-color: black;-webkit-text-stroke: 3px black ; font-size: 35px"><font face="Caflisch Script">
+<b><p style="color: black;-webkit-text-fill-color: black;-webkit-text-stroke: 3px black ;"><font face="Caflisch Script">
            " con un asesoramiento importar , nunca fue   tan facil "
        </font></p></b>
         <ul class="social-intro list-unstyled list-inline">
